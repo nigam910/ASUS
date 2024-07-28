@@ -1,0 +1,212 @@
+00:00:00.002938 main     VirtualBox COM Server 7.0.10 r158379 win.amd64 (Jul 12 2023 18:34:34) release log
+00:00:00.002941 main     Log opened 2024-05-20T05:22:01.788338200Z
+00:00:00.002942 main     Build Type: release
+00:00:00.002947 main     OS Product: Windows 11
+00:00:00.002948 main     OS Release: 10.0.22631
+00:00:00.002949 main     OS Service Pack: 
+00:00:00.021661 main     DMI Product Name: ASUS TUF Gaming F15 FX506LH_FX506LH
+00:00:00.033728 main     DMI Product Version: 1.0
+00:00:00.033742 main     Firmware type: UEFI
+00:00:00.034132 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.034157 main     Host RAM: 8029MB (7.8GB) total, 3995MB (3.9GB) available
+00:00:00.034162 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.034163 main     Process ID: 15460
+00:00:00.034163 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.050672          VirtualBox: object creation starts
+00:00:00.051058          Home directory: 'C:\Users\ASUS\.VirtualBox'
+00:00:00.051164          Installed Drivers:
+00:00:00.057063            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.10.8379)
+00:00:00.058177            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.10.8379)
+00:00:00.058759            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 7.0.10.8379)
+00:00:00.060168            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.10.8379)
+00:00:00.076890          Loading settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.079316          usbLibGetDevices: Starting USB device enumeration
+00:00:00.103867          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:00:00.104001          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:00:00.105707          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:00.105778          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x3563)
+00:00:00.105821          USB: Unknown USB device detected (idVendor: 0x322e, idProduct: 0x202c)
+00:00:00.132382          netIfIsWireless: CreateFile on '\\.\{B9848B61-B745-4F61-B1B0-FC75B9D0F2AF}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.141008          HostDnsMonitor: initializing
+00:00:00.147767          HostDnsMonitor: updating information
+00:00:00.147783          HostDnsMonitor: old information
+00:00:00.147784            no server entries
+00:00:00.147785            no domain set
+00:00:00.147785            no search string entries
+00:00:00.147785          HostDnsMonitor: new information
+00:00:00.147785            server 1: 192.168.18.1
+00:00:00.147786            no domain set
+00:00:00.147786            no search string entries
+00:00:00.232318          VD: VDInit finished with VINF_SUCCESS
+00:00:00.233666          Loading settings file "C:\Users\ASUS\VirtualBox VMs\Nigam Works Machine\Nigam Works Machine.vbox" with version "1.19-windows"
+00:00:00.234569          VirtualBox: object created
+00:00:00.308324          Saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.312368          Finished saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml"
+00:00:00.312610          Saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.314953          Finished saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml"
+00:00:00.315173          Saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.318032          Finished saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml"
+00:00:02.082337          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:02.244084 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:02.260589 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:00:02.260709 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:00:02.260869 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:14.101654          Launched VM: 2958450240 pid: 14296 (0x37d8) frontend: GUI/Qt name: Nigam Works Machine
+00:00:14.125657          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:21.198338          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:21.772984          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:25.047542          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:25.350190          netIfIsWireless: CreateFile on '\\.\{B9848B61-B745-4F61-B1B0-FC75B9D0F2AF}' failed with rcWin=2 (0x2) - ignoring
+00:00:25.596198          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:25.596310          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:28.079667          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:28.080016          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:28.129826          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:04:12.838845 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:04:13.125866 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:04:13.126499 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:14:53.328087 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:14:53.340461 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:14:53.340541 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:14:53.340703 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:21:08.139585 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:21:08.152592 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:21:08.152726 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:21:08.152995 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:24:12.049251 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:24:12.062081 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:24:12.062156 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:24:12.062272 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:24:13.525048 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:24:13.539113 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:24:13.539176 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:24:13.539273 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:25:17.549251 dns-monitor HostDnsMonitor: updating information
+00:25:17.549287 dns-monitor HostDnsMonitor: unchanged
+00:43:14.715427 MainPower Host suspending: Paused 1 VMs
+00:43:14.968478          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:45:26.738993 MainPower Host resumed: Resumed 1 VMs
+00:45:27.663571          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:45:28.726746 dns-monitor HostDnsMonitor: updating information
+00:45:28.726771 dns-monitor HostDnsMonitor: unchanged
+00:45:32.725645 dns-monitor HostDnsMonitor: updating information
+00:45:32.725687 dns-monitor HostDnsMonitor: unchanged
+00:46:33.952236 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:46:33.964559 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:46:33.964715 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:46:33.964983 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:46:36.938186 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:46:36.951765 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:46:36.951835 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:46:36.952020 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:04:00.829157 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:04:00.843121 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:04:00.843262 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:04:00.843529 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:15:32.642703 dns-monitor HostDnsMonitor: updating information
+01:15:32.642803 dns-monitor HostDnsMonitor: unchanged
+01:25:16.671186 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:25:16.683881 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:25:16.683950 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:25:16.685636 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:25:33.094888 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:25:33.107442 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:25:33.107496 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:25:33.107613 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:25:35.307263 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:25:35.320641 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:25:35.320866 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:25:35.323317 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:26:11.976051 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:26:12.027236 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:26:12.027350 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:26:12.027769 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:26:14.248737 MainPower Host suspending: Paused 1 VMs
+01:26:14.601306 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:26:14.611386          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:29:36.331070 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:29:36.408907 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:29:38.278067 MainPower Host resumed: Resumed 1 VMs
+01:29:38.998140          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:29:39.205651 dns-monitor HostDnsMonitor: updating information
+01:29:39.205775 dns-monitor HostDnsMonitor: old information
+01:29:39.205784 dns-monitor   server 1: 192.168.18.1
+01:29:39.205803 dns-monitor   no domain set
+01:29:39.205808 dns-monitor   no search string entries
+01:29:39.205814 dns-monitor HostDnsMonitor: new information
+01:29:39.205819 dns-monitor   no server entries
+01:29:39.205824 dns-monitor   no domain set
+01:29:39.205829 dns-monitor   no search string entries
+01:29:39.213089 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:29:39.225720 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:29:39.225936 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:29:39.226631 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:29:39.227600 USBPROXY USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x3563)
+01:38:21.351549 MainPower Host suspending: Paused 1 VMs
+01:38:21.396910          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:39:48.465245 MainPower Host resumed: Resumed 1 VMs
+01:39:49.316362          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:49:09.910914 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:49:09.924347 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:49:09.924435 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:49:09.924601 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:51:32.220588 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:51:32.241943 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:51:32.242030 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:51:32.242182 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:51:33.795645 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:51:33.811394 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:51:33.811457 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:51:33.811570 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:55:22.772539          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:55:27.272048          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+01:55:27.554368          Saving settings file "C:\Users\ASUS\VirtualBox VMs\Nigam Works Machine\Nigam Works Machine.vbox" with version "1.19-windows"
+01:55:27.559878          Finished saving settings file "C:\Users\ASUS\VirtualBox VMs\Nigam Works Machine\Nigam Works Machine.vbox"
+01:55:27.577621          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:55:29.096171          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:55:36.459823          Launched VM: 2959062048 pid: 19480 (0x4c18) frontend: GUI/Qt name: Nigam Works Machine
+01:55:36.480174          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:55:42.360517          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:55:42.837198          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+01:55:44.630789          Saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:55:44.634139          Finished saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml"
+01:55:46.158743          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:55:46.311241          netIfIsWireless: CreateFile on '\\.\{B9848B61-B745-4F61-B1B0-FC75B9D0F2AF}' failed with rcWin=2 (0x2) - ignoring
+01:55:46.490365          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+01:55:46.518803          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+01:55:48.450567          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:55:48.450877          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:55:48.489844          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:56:26.784385          Saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:56:26.789439          Finished saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml"
+02:03:28.280880 USBPROXY usbLibGetDevices: Starting USB device enumeration
+02:03:28.293920 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+02:03:28.293996 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&16bab057&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+02:03:28.294777 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+02:06:21.510095          Saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+02:06:21.515774          Finished saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml"
+02:06:23.673991          Saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+02:06:23.678999          Finished saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml"
+02:06:24.023851          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:06:25.824533          Saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+02:06:25.829702          Finished saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml"
+02:06:36.102396          Saving settings file "C:\Users\ASUS\VirtualBox VMs\Nigam Works Machine\Nigam Works Machine.vbox" with version "1.19-windows"
+02:06:36.106072          Finished saving settings file "C:\Users\ASUS\VirtualBox VMs\Nigam Works Machine\Nigam Works Machine.vbox"
+02:06:36.126455          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:06:38.939655          Saving settings file "C:\Users\ASUS\VirtualBox VMs\Nigam Works Machine\Nigam Works Machine.vbox" with version "1.19-windows"
+02:06:38.944761          Finished saving settings file "C:\Users\ASUS\VirtualBox VMs\Nigam Works Machine\Nigam Works Machine.vbox"
+02:06:38.953279          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:06:40.424727          Saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+02:06:40.429975          Finished saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml"
+02:10:27.144395          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+02:10:29.306553          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+02:10:29.557758          Saving settings file "C:\Users\ASUS\VirtualBox VMs\Nigam Works Machine\Nigam Works Machine.vbox" with version "1.19-windows"
+02:10:29.560585          Finished saving settings file "C:\Users\ASUS\VirtualBox VMs\Nigam Works Machine\Nigam Works Machine.vbox"
+02:10:29.572666          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:10:31.086827          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+02:10:42.725254 main     VirtualBox: object deletion starts
+02:10:42.725544 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ASUS\VirtualBox VMs\Nigam Works Machine\Nigam Works Machine.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+02:10:42.728944 main     HostDnsMonitor: shutting down ...
+02:10:42.729063 main     HostDnsMonitor: shut down
+02:10:42.731740 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+02:10:42.731885 main     VirtualBox: object deleted
